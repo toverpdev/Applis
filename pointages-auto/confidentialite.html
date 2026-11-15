@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heures Réelles : confidentialité</title>
+<meta name="description" content="Politique de confidentialité de l'application Android Heures Réelles.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout : une seule colonne de lecture, même palette que la page d'accueil. */
+:root {
+  --paper: #f2f4f1; --card: #ffffff; --ink: #17211c; --muted: #56635b;
+  --line: #d3dad4; --accent: #0b7a53; --over: #b96a12;
+  --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #111714; --card: #19211d; --ink: #e7ede8; --muted: #9ba8a0;
+    --line: #2b3630; --accent: #44c492; --over: #e6a24c; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #111714; --card: #19211d; --ink: #e7ede8; --muted: #9ba8a0;
+  --line: #2b3630; --accent: #44c492; --over: #e6a24c; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.65; }
+.wrap { max-width: 720px; margin: 0 auto; padding: 0 20px 56px; }
+a { color: var(--accent); text-underline-offset: 3px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+header { padding: 22px 0; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; align-items: baseline; }
+.brand { font-family: var(--display); font-weight: 700; font-size: 1.25rem; color: var(--ink); text-decoration: none; }
+.brand span { color: var(--accent); }
+h1, h2 { font-family: var(--display); letter-spacing: -0.02em; text-wrap: balance; }
+h1 { font-size: clamp(1.9rem, 4.5vw, 2.6rem); line-height: 1.1; margin: 44px 0 6px; }
+h2 { font-size: 1.3rem; margin: 40px 0 8px; }
+.date { color: var(--muted); font-size: 0.95rem; margin: 0 0 28px; }
+.short { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 8px; padding: 16px 20px; }
+.short p { margin: 0; }
+ul { padding-left: 20px; }
+li { margin: 6px 0; }
+.tablebox { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 0.97rem; }
+th, td { text-align: left; vertical-align: top; padding: 10px 14px 10px 0; border-bottom: 1px solid var(--line); }
+th { color: var(--muted); font-weight: 600; font-size: 0.88rem; }
+mark { background: color-mix(in srgb, var(--over) 22%, transparent); color: inherit; padding: 0 4px; border-radius: 3px; }
+footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.92rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <a class="brand" href="index.html">Heures <span>Réelles</span></a>
+  <a href="index.html">Retour à l'accueil</a>
+</header>
+
+<main>
+<h1>Politique de confidentialité</h1>
+<p class="date">Dernière mise à jour : 14 novembre 2026</p>
+
+<div class="short">
+  <p><strong>En bref.</strong> Heures Réelles fonctionne entièrement sur votre téléphone. L'application n'a pas de serveur, pas de compte utilisateur, pas de publicité et pas d'outil de mesure d'audience. L'éditeur ne reçoit aucune de vos données.</p>
+</div>
+
+<h2>Qui est responsable</h2>
+<p>L'application Heures Réelles est éditée par Toverpdev (voir les mentions légales en bas de page). Pour toute question : <mark>[EMAIL]</mark>.</p>
+
+<h2>Données utilisées par l'application</h2>
+<p>Ces données sont lues et enregistrées sur votre appareil uniquement. Elles ne sont jamais transmises à l'éditeur ni à un tiers.</p>
+<div class="tablebox">
+<table>
+  <thead><tr><th>Donnée</th><th>À quoi elle sert</th></tr></thead>
+  <tbody>
+    <tr><td>Localisation précise, y compris en arrière-plan</td><td>Repérer votre entrée et votre sortie des zones Travail et Domicile pour pointer vos heures et mesurer vos trajets</td></tr>
+    <tr><td>Réseaux Wifi à proximité</td><td>Repérer votre présence dans un lieu quand vous avez choisi la détection par Wifi</td></tr>
+    <tr><td>Activité physique (marche, vélo, véhicule)</td><td>Déduire le mode de transport de vos trajets et déclencher une vérification de position quand vous bougez</td></tr>
+    <tr><td>Pointages, trajets, types de journée, commentaires</td><td>Afficher vos compteurs, vos tableaux, vos bilans et votre résumé PDF</td></tr>
+    <tr><td>Réglages</td><td>Mémoriser vos lieux, votre objectif de travail et vos préférences de notification</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>Localisation en arrière-plan</h2>
+<p>Heures Réelles utilise votre localisation même quand l'application est fermée ou non utilisée. C'est ce qui permet de pointer votre arrivée et votre départ sans que vous ayez à ouvrir l'application. Vous pouvez retirer cette autorisation à tout moment dans les réglages d'Android ; le pointage automatique cesse alors de fonctionner.</p>
+
+<h2>Où sont enregistrées vos données</h2>
+<ul>
+  <li>Dans des fichiers CSV stockés sur votre téléphone, dans l'espace réservé à l'application.</li>
+  <li>Dans le dossier de sauvegarde que vous choisissez, si vous activez la sauvegarde automatique. Si ce dossier est synchronisé avec un service en ligne, ce service applique ses propres règles.</li>
+</ul>
+
+<h2>Partage</h2>
+<p>L'application ne partage aucune donnée. Un export CSV ou un résumé PDF ne quitte votre téléphone que si vous décidez vous-même de l'envoyer.</p>
+
+<h2>Services de Google utilisés</h2>
+<ul>
+  <li><strong>Services Google Play</strong> : fournissent la position, les zones géographiques et la reconnaissance d'activité à l'application, sur votre appareil.</li>
+  <li><strong>Facturation Google Play</strong> : gère l'essai gratuit, l'abonnement et l'achat. Le paiement est traité par Google. L'éditeur ne reçoit ni votre nom ni vos coordonnées bancaires.</li>
+</ul>
+<p>Ces services relèvent des <a href="https://policies.google.com/privacy?hl=fr">règles de confidentialité de Google</a>.</p>
+
+<h2>Durée de conservation et suppression</h2>
+<p>Vos données sont conservées tant que l'application est installée. Pour les supprimer :</p>
+<ul>
+  <li>supprimez une journée ou un trajet depuis les tableaux de l'application ;</li>
+  <li>effacez les données de l'application dans les réglages d'Android, ou désinstallez-la ;</li>
+  <li>supprimez les fichiers du dossier de sauvegarde si vous l'avez utilisé.</li>
+</ul>
+
+<h2>Vos droits</h2>
+<p>L'éditeur ne détient aucune donnée vous concernant : vous exercez vos droits d'accès, de rectification, d'effacement et de portabilité directement dans l'application, sur votre téléphone. Pour toute question, écrivez à <mark>[EMAIL]</mark>. Vous pouvez aussi saisir la <a href="https://www.cnil.fr/fr/plaintes">CNIL</a>.</p>
+
+<h2>Public</h2>
+<p>L'application s'adresse aux adultes qui travaillent. Elle n'est pas destinée aux enfants.</p>
+
+<h2>Modifications</h2>
+<p>Cette page sera mise à jour si l'application évolue, par exemple si de nouvelles fonctions utilisent d'autres données. La date en haut de page indique la dernière version.</p>
+
+<h2>Mentions légales</h2>
+<p>Éditeur : Toverpdev, nom utilisé par <mark>[NOM ET PRÉNOM]</mark>, <mark>[STATUT ET NUMÉRO SIRET]</mark>, <mark>[ADRESSE]</mark>. Contact : <mark>[EMAIL]</mark>. Hébergeur du site : <mark>[HÉBERGEUR]</mark>.</p>
+</main>
+
+<footer>Heures Réelles</footer>
+
+</div>
+</body>
+</html>
